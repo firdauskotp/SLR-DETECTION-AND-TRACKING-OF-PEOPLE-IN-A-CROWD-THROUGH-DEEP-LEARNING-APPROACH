@@ -1,0 +1,103 @@
+TY  - CONF
+TI  - Handling Heavy Occlusion in Dense Crowd Tracking by Focusing on the Heads
+AU  - Zhang, Yu
+AU  - Chen, Huaming
+AU  - Lai, Zhongzheng
+AU  - Zhang, Zao
+AU  - Yuan, Dong
+A2  - Liu, Tongliang
+A2  - Webb, Geoff
+A2  - Yue, Lin
+A2  - Wang, Dadong
+T3  - Lecture Notes in Computer Science
+AB  - With the rapid development of deep learning, object detection and tracking play a vital role in today’s society. Being able to identify and track all the pedestrians in the dense crowd scene with computer vision approaches is a typical challenge in this field, also known as the Multiple Object Tracking (MOT) challenge. Modern trackers are required to operate on more and more complicated scenes. According to the MOT20 challenge result, the pedestrian is 4 times denser than the MOT17 challenge. Hence, improving the ability to detect and track in extremely crowded scenes is the aim of this work. In light of the occlusion issue with the human body, the heads are usually easier to identify. In this work, we have designed a joint head and body detector in an anchor-free style to boost the detection recall and precision performance of pedestrians in both small and medium sizes. Innovatively, our model does not require information on the statistical head-body ratio for common pedestrians detection for training. Instead, the proposed model learns the ratio dynamically. To verify the effectiveness of the proposed model, we evaluate the model with extensive experiments on different datasets, including MOT20, Crowdhuman, and HT21 datasets. As a result, our proposed method significantly improves both the recall and precision rate on small and medium sized pedestrians, and achieves state-of-the-art results in these challenging datasets.
+C1  - Singapore
+C3  - AI 2023: Advances in Artificial Intelligence
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-981-99-8388-9_7
+DP  - Springer Link
+SP  - 79
+EP  - 90
+LA  - en
+PB  - Springer Nature
+SN  - 978-981-9983-88-9
+L1  - files/6213/Zhang et al. - 2024 - Handling Heavy Occlusion in Dense Crowd Tracking b.pdf
+N1  - <div data-schema-version="8"><p>pay but got submitted version can check</p>
+</div>
+N1  - <div data-schema-version="8"><p>RQ123</p>
+</div>
+KW  - Crowd
+KW  - Detection
+KW  - Tracking
+ER  - 
+
+TY  - CONF
+TI  - An End-to-End Transformer Model for Crowd Localization
+AU  - Liang, Dingkang
+AU  - Xu, Wei
+AU  - Bai, Xiang
+A2  - Avidan, Shai
+A2  - Brostow, Gabriel
+A2  - Cissé, Moustapha
+A2  - Farinella, Giovanni Maria
+A2  - Hassner, Tal
+T3  - Lecture Notes in Computer Science
+AB  - Crowd localization, predicting head positions, is a more practical and high-level task than simply counting. Existing methods employ pseudo-bounding boxes or pre-designed localization maps, relying on complex post-processing to obtain the head positions. In this paper, we propose an elegant, end-to-end Crowd Localization TRansformer named CLTR that solves the task in the regression-based paradigm. The proposed method views the crowd localization as a direct set prediction problem, taking extracted features and trainable embeddings as input of the transformer-decoder. To reduce the ambiguous points and generate more reasonable matching results, we introduce a KMO-based Hungarian matcher, which adopts the nearby context as the auxiliary matching cost. Extensive experiments conducted on five datasets in various data settings show the effectiveness of our method. In particular, the proposed method achieves the best localization performance on the NWPU-Crowd, UCF-QNRF, and ShanghaiTech Part A datasets.
+C1  - Cham
+C3  - Computer Vision – ECCV 2022
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-19769-7_3
+DP  - Springer Link
+SP  - 38
+EP  - 54
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-19769-7
+L1  - files/6216/Liang et al. - 2022 - An End-to-End Transformer Model for Crowd Localiza.pdf
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+N1  - <div data-schema-version="8"><p>RQ123</p>
+</div>
+KW  - Crowd counting
+KW  - Crowd localization
+KW  - Transformer
+ER  - 
+
+TY  - JOUR
+TI  - Dense Crowds Detection and Surveillance with Drones using Density Maps
+AU  - Javier Gonzalez-Trejo
+AU  - Diego Alberto Mercado-Ravell
+T2  - arXiv: Computer Vision and Pattern Recognition
+AB  - Detecting and Counting people in a human crowd from a moving drone present challenging problems that arisefrom the constant changing in the image perspective andcamera angle. In this paper, we test two different state-of-the-art approaches, density map generation with VGG19 trainedwith the Bayes loss function and detect-then-count with FasterRCNN with ResNet50-FPN as backbone, in order to comparetheir precision for counting and detecting people in differentreal scenarios taken from a drone flight. We show empiricallythat both proposed methodologies perform especially well fordetecting and counting people in sparse crowds when thedrone is near the ground. Nevertheless, VGG19 provides betterprecision on both tasks while also being lighter than FasterRCNN. Furthermore, VGG19 outperforms Faster RCNN whendealing with dense crowds, proving to be more robust toscale variations and strong occlusions, being more suitable forsurveillance applications using drones
+DA  - 2020///
+PY  - 2020
+DO  - 10.1109/ICUAS48674.2020.9213886
+J2  - arXiv: Computer Vision and Pattern Recognition
+UR  - https://arxiv.org/pdf/2003.08766.pdf
+N1  - <div data-schema-version="8"><p>open</p>
+</div>
+N1  - <div data-schema-version="8"><p>RQ123</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Tracking Pedestrian Heads in Dense Crowd
+AU  - Ramana Sundararaman
+AU  - Cedric De Almeida Braga
+AU  - Eric Marchand
+AU  - Julien Pettré
+AB  - Tracking humans in crowded video sequences is an important constituent of visual scene understanding. Increasing crowd density challenges visibility of humans, limiting the scalability of existing pedestrian trackers to higher crowd densities. For that reason, we propose to revitalize head tracking with Crowd of Heads Dataset (CroHD), consisting of 9 sequences of 11,463 frames with over 2,276,838 heads and 5,230 tracks annotated in diverse scenes. For evaluation, we proposed a new metric, IDEucl, to measure an algorithm’s efficacy in preserving a unique identity for the longest stretch in image coordinate space, thus building a correspondence between pedestrian crowd motion and the performance of a tracking algorithm. Moreover, we also propose a new head detector, HeadHunter, which is designed for small head detection in crowded scenes. We extend HeadHunter with a Particle Filter and a color histogram based re-identification module for head tracking. To establish this as a strong baseline, we compare our tracker with existing state-of-the-art pedestrian trackers on CroHD and demonstrate superiority, especially in identity preserving tracking metrics. With a light-weight head detector and a tracker which is efficient at identity preservation, we believe our contributions will serve useful in advancement of pedestrian tracking in dense crowds. We make our dataset, code and models publicly available at https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/CVPR46437.2021.00386
+SP  - 3865
+EP  - 3875
+UR  - https://openaccess.thecvf.com/content/CVPR2021/papers/Sundararaman_Tracking_Pedestrian_Heads_in_Dense_Crowd_CVPR_2021_paper.pdf
+N1  - <div data-schema-version="8"><p>open</p>
+</div>
+N1  - <div data-schema-version="8"><p>RQ123</p>
+</div>
+ER  - 
+

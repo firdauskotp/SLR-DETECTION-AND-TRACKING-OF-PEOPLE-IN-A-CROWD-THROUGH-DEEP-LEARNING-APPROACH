@@ -1,0 +1,794 @@
+TY  - CONF
+TI  - Scale-Aware Multi-stage Fusion Network for Crowd Counting
+AU  - Liu, Qi
+AU  - Sang, Jun
+AU  - Wang, Fusen
+AU  - Yang, Li
+AU  - Xia, Xiaofeng
+AU  - Sang, Nong
+A2  - Mantoro, Teddy
+A2  - Lee, Minho
+A2  - Ayu, Media Anugerah
+A2  - Wong, Kok Wai
+A2  - Hidayanto, Achmad Nizar
+T3  - Communications in Computer and Information Science
+AB  - Crowd counting has been widely researched and many hopeful results have been obtained recently. Due to the large-scale variation and complex background noise, accurate crowd counting is still very difficult. In this paper, we raise a simple but efficient network named SMFNet, which focuses on dealing with the above two problems of highly congested noisy scenes. SMFNet consists of two main components: multi-scale dilated convolution block (MDCB) for multi-scale features extraction and U-shape fusion structure (UFS) for multi-stage features fusion. MDCB can address the challenge of scale variation via capturing multi-scale features. UFS provides an effective structure that continuously combines outputs of different stages to achieve the capability of optimizing multi-scale features and increasing resistance to background noise. Compared with the existing methods, SMFNet achieves better performance in capturing effective and richer multi-scale features through progressively multi-stage fusion. To evaluate our method, we have demonstrated it on three popular crowd counting datasets (ShanghaiTech, UCF_CC_50, UCF-QNRF). Experimental results indicate that SMFNet can achieve state-of-the-art results on highly congested scenes datasets.
+C1  - Cham
+C3  - Neural Information Processing
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-92310-5_1
+DP  - Springer Link
+SP  - 3
+EP  - 11
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-92310-5
+L1  - files/431/Liu et al. - 2021 - Scale-Aware Multi-stage Fusion Network for Crowd C.pdf
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+KW  - Crowd counting
+KW  - Multi-scale features
+KW  - Multi-stage fusion
+ER  - 
+
+TY  - CONF
+TI  - Loss Filtering Factor for Crowd Counting
+AU  - Chen, Yufeng
+A2  - Liu, Qingshan
+A2  - Wang, Hanzi
+A2  - Ma, Zhanyu
+A2  - Zheng, Weishi
+A2  - Zha, Hongbin
+A2  - Chen, Xilin
+A2  - Wang, Liang
+A2  - Ji, Rongrong
+T3  - Lecture Notes in Computer Science
+AB  - In crowd counting datasets, each person is annotated by a point, typically representing the center of the head. However, due to the dense crowd, variety of scenarios, significant obscuration and low resolution, label noise in the dataset is inevitable and such label noise has a negative impact on the performance of the model. To alleviate the negative effects of label noise, in this paper we propose the Loss Filtering Factor, which can filter out the losses assumed to be caused by label noise during the training process. By doing so, the model can prioritize non-noise data and focus on it during training and predicting. Extensive experimental evaluations have demonstrated that the proposed Loss Filtering Factor consistently improves the performance of all models across all datasets used in the experiments. On average, it leads to a 5.48% improvement in MAE and 6.43% in MSE. Moreover, the proposed approach is universal and it can be easily implemented into any neural network model architecture to improve performance.
+C1  - Singapore
+C3  - Pattern Recognition and Computer Vision
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-981-99-8435-0_1
+DP  - Springer Link
+SP  - 3
+EP  - 15
+LA  - en
+PB  - Springer Nature
+SN  - 978-981-9984-35-0
+N1  - <div data-schema-version="8"><p>paid</p>
+</div>
+KW  - crowd counting
+KW  - loss function
+KW  - noisy labels
+ER  - 
+
+TY  - CONF
+TI  - Spatio-Channel Attention Blocks for Cross-modal Crowd Counting
+AU  - Zhang, Youjia
+AU  - Choi, Soyun
+AU  - Hong, Sungeun
+A2  - Wang, Lei
+A2  - Gall, Juergen
+A2  - Chin, Tat-Jun
+A2  - Sato, Imari
+A2  - Chellappa, Rama
+T3  - Lecture Notes in Computer Science
+AB  - Crowd counting research has made significant advancements in real-world applications, but it remains a formidable challenge in cross-modal settings. Most existing methods rely solely on the optical features of RGB images, ignoring the feasibility of other modalities such as thermal and depth images. The inherently significant differences between the different modalities and the diversity of design choices for model architectures make cross-modal crowd counting more challenging. In this paper, we propose Cross-modal Spatio-Channel Attention (CSCA) blocks, which can be easily integrated into any modality-specific architecture. The CSCA blocks first spatially capture global functional correlations among multi-modality with less overhead through spatial-wise cross-modal attention. Cross-modal features with spatial attention are subsequently refined through adaptive channel-wise feature aggregation. In our experiments, the proposed block consistently shows significant performance improvement across various backbone networks, resulting in state-of-the-art results in RGB-T and RGB-D crowd counting.
+C1  - Cham
+C3  - Computer Vision – ACCV 2022
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-26284-5_2
+DP  - Springer Link
+SP  - 22
+EP  - 40
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-26284-5
+L1  - files/1045/Zhang et al. - 2023 - Spatio-Channel Attention Blocks for Cross-modal Cr.pdf
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+KW  - Crowd counting
+KW  - Attention
+KW  - Cross-modal
+ER  - 
+
+TY  - CONF
+TI  - Recent Trends and Study on Perspective Crowd Counting in Smart Environments
+AU  - Jaswanth, Vasupalli
+AU  - Yeduguru, Arun Reddy
+AU  - Manoj, Vura Seetha
+AU  - Deepak, K.
+AU  - Chandrakala, S.
+A2  - Raje, Rajeev R.
+A2  - Hussain, Farookh
+A2  - Kannan, R. Jagadeesh
+T3  - Lecture Notes in Electrical Engineering
+AB  - Estimation of the people count in a highly congested scene is a challenging task. It has an extensive range of applications in smart environments such as traffic monitoring, video surveillance, and automatic crowd management. It includes various challenges such as insufficient resolution, dynamic backgrounds, severe congestion, excessive overlaps, occlusions, and perspective changes. With the advancements in deep learning, crowd counting has been achieving excellent results in terms of accuracy and robustness. In this paper, we perform a brief review of perspective crowd counting and a study on recent perspective crowd counting methods namely S-DC Net, PCC Net, and SCAR. We have also identified a variant, which use both S-DC Net and Down Up Left Right (DULR) module and studied its performance on benchmark datasets. Few directions for further research are also presented.
+C1  - Singapore
+C3  - Artificial Intelligence and Technologies
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-981-16-6448-9_7
+DP  - Springer Link
+SP  - 63
+EP  - 72
+LA  - en
+PB  - Springer
+SN  - 9789811664489
+L1  - files/835/Jaswanth et al. - 2022 - Recent Trends and Study on Perspective Crowd Count.pdf
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+KW  - Deep learning
+KW  - Attention model
+KW  - Density map
+KW  - Perspective crowd counting
+ER  - 
+
+TY  - CONF
+TI  - Completely Self-supervised Crowd Counting via Distribution Matching
+AU  - Babu Sam, Deepak
+AU  - Agarwalla, Abhinav
+AU  - Joseph, Jimmy
+AU  - Sindagi, Vishwanath A.
+AU  - Babu, R. Venkatesh
+AU  - Patel, Vishal M.
+A2  - Avidan, Shai
+A2  - Brostow, Gabriel
+A2  - Cissé, Moustapha
+A2  - Farinella, Giovanni Maria
+A2  - Hassner, Tal
+T3  - Lecture Notes in Computer Science
+AB  - Dense crowd counting is a challenging task that demands millions of head annotations for training models. Though existing self-supervised approaches could learn good representations, they require some labeled data to map these features to the end task of density estimation. We mitigate this issue with the proposed paradigm of complete self-supervision, which does not need even a single labeled image. The only input required to train, apart from a large set of unlabeled crowd images, is the approximate upper limit of the crowd count for the given dataset. Our method dwells on the idea that natural crowds follow a power law distribution, which could be leveraged to yield error signals for backpropagation. A density regressor is first pretrained with self-supervision and then the distribution of predictions is matched to the prior. Experiments show that this results in effective learning of crowd features and delivers significant counting performance.
+C1  - Cham
+C3  - Computer Vision – ECCV 2022
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-19821-2_11
+DP  - Springer Link
+SP  - 186
+EP  - 204
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-19821-2
+L1  - files/1340/Babu Sam et al. - 2022 - Completely Self-supervised Crowd Counting via Dist.pdf
+N1  - <div data-schema-version="8"><p>access provided by unikl</p>
+<p></p>
+</div>
+KW  - Crowd counting
+KW  - Unsupervised learning
+KW  - Self-supervision
+ER  - 
+
+TY  - CONF
+TI  - CounTr: An End-to-End Transformer Approach for Crowd Counting and Density Estimation
+AU  - Bai, Haoyue
+AU  - He, Hao
+AU  - Peng, Zhuoxuan
+AU  - Dai, Tianyuan
+AU  - Chan, S.-H. Gary
+A2  - Karlinsky, Leonid
+A2  - Michaeli, Tomer
+A2  - Nishino, Ko
+T3  - Lecture Notes in Computer Science
+AB  - Modeling context information is critical for crowd counting and desntiy estimation. Current prevailing fully-convolutional network (FCN) based crowd counting methods cannot effectively capture long-range dependencies with limited receptive fields. Although recent efforts on inserting dilated convolutions and attention modules have been taken to enlarge the receptive fields, the FCN architecture remains unchanged and retains the fundamental limitation on learning long-range relationships. To tackle the problem, we introduce CounTr, a novel end-to-end transformer approach for crowd counting and density estimation, which enables capture global context in every layer of the Transformer. To be specific, CounTr is composed of a powerful transformer-based hierarchical encoder-decoder architecture. The transformer-based encoder is directly applied to sequences of image patches and outputs multi-scale features. The proposed hierarchical self-attention decoder fuses the features from different layers and aggregates both local and global context features representations. Experimental results show that CounTr achieves state-of-the-art performance on both person and vehicle crowd counting datasets. Particularly, we achieve the first position (159.8 MAE) in the highly crowded UCF_CC_50 benchmark and achieve new SOTA performance (2.0 MAE) in the super large and diverse FDST open dataset. This demonstrates CounTr’s promising performance and practicality for real applications.
+C1  - Cham
+C3  - Computer Vision – ECCV 2022 Workshops
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-25075-0_16
+DP  - Springer Link
+SP  - 207
+EP  - 222
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-25075-0
+ST  - CounTr
+L1  - files/1387/Bai et al. - 2023 - CounTr An End-to-End Transformer Approach for Cro.pdf
+N1  - <div data-schema-version="8"><p>access provided by unikl</p>
+</div>
+KW  - Hierarchical architecture
+KW  - Single image crowd counting
+KW  - Transformer-based approach
+ER  - 
+
+TY  - CONF
+TI  - Handling Heavy Occlusion in Dense Crowd Tracking by Focusing on the Heads
+AU  - Zhang, Yu
+AU  - Chen, Huaming
+AU  - Lai, Zhongzheng
+AU  - Zhang, Zao
+AU  - Yuan, Dong
+A2  - Liu, Tongliang
+A2  - Webb, Geoff
+A2  - Yue, Lin
+A2  - Wang, Dadong
+T3  - Lecture Notes in Computer Science
+AB  - With the rapid development of deep learning, object detection and tracking play a vital role in today’s society. Being able to identify and track all the pedestrians in the dense crowd scene with computer vision approaches is a typical challenge in this field, also known as the Multiple Object Tracking (MOT) challenge. Modern trackers are required to operate on more and more complicated scenes. According to the MOT20 challenge result, the pedestrian is 4 times denser than the MOT17 challenge. Hence, improving the ability to detect and track in extremely crowded scenes is the aim of this work. In light of the occlusion issue with the human body, the heads are usually easier to identify. In this work, we have designed a joint head and body detector in an anchor-free style to boost the detection recall and precision performance of pedestrians in both small and medium sizes. Innovatively, our model does not require information on the statistical head-body ratio for common pedestrians detection for training. Instead, the proposed model learns the ratio dynamically. To verify the effectiveness of the proposed model, we evaluate the model with extensive experiments on different datasets, including MOT20, Crowdhuman, and HT21 datasets. As a result, our proposed method significantly improves both the recall and precision rate on small and medium sized pedestrians, and achieves state-of-the-art results in these challenging datasets.
+C1  - Singapore
+C3  - AI 2023: Advances in Artificial Intelligence
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-981-99-8388-9_7
+DP  - Springer Link
+SP  - 79
+EP  - 90
+LA  - en
+PB  - Springer Nature
+SN  - 978-981-9983-88-9
+L1  - files/1005/Zhang et al. - 2024 - Handling Heavy Occlusion in Dense Crowd Tracking b.pdf
+N1  - <div data-schema-version="8"><p>pay but got submitted version can check</p>
+</div>
+KW  - Detection
+KW  - Tracking
+KW  - Crowd
+ER  - 
+
+TY  - CONF
+TI  - An End-to-End Transformer Model for Crowd Localization
+AU  - Liang, Dingkang
+AU  - Xu, Wei
+AU  - Bai, Xiang
+A2  - Avidan, Shai
+A2  - Brostow, Gabriel
+A2  - Cissé, Moustapha
+A2  - Farinella, Giovanni Maria
+A2  - Hassner, Tal
+T3  - Lecture Notes in Computer Science
+AB  - Crowd localization, predicting head positions, is a more practical and high-level task than simply counting. Existing methods employ pseudo-bounding boxes or pre-designed localization maps, relying on complex post-processing to obtain the head positions. In this paper, we propose an elegant, end-to-end Crowd Localization TRansformer named CLTR that solves the task in the regression-based paradigm. The proposed method views the crowd localization as a direct set prediction problem, taking extracted features and trainable embeddings as input of the transformer-decoder. To reduce the ambiguous points and generate more reasonable matching results, we introduce a KMO-based Hungarian matcher, which adopts the nearby context as the auxiliary matching cost. Extensive experiments conducted on five datasets in various data settings show the effectiveness of our method. In particular, the proposed method achieves the best localization performance on the NWPU-Crowd, UCF-QNRF, and ShanghaiTech Part A datasets.
+C1  - Cham
+C3  - Computer Vision – ECCV 2022
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-19769-7_3
+DP  - Springer Link
+SP  - 38
+EP  - 54
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-19769-7
+L1  - files/1091/Liang et al. - 2022 - An End-to-End Transformer Model for Crowd Localiza.pdf
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+KW  - Crowd counting
+KW  - Transformer
+KW  - Crowd localization
+ER  - 
+
+TY  - CONF
+TI  - DLMP-Net: A Dynamic Yet Lightweight Multi-pyramid Network for Crowd Density Estimation
+AU  - Chen, Qi
+AU  - Lei, Tao
+AU  - Geng, Xinzhe
+AU  - Liu, Hulin
+AU  - Gao, Yangyi
+AU  - Zhao, Weiqiang
+AU  - Nandi, Asoke
+A2  - Yu, Shiqi
+A2  - Zhang, Zhaoxiang
+A2  - Yuen, Pong C.
+A2  - Han, Junwei
+A2  - Tan, Tieniu
+A2  - Guo, Yike
+A2  - Lai, Jianhuang
+A2  - Zhang, Jianguo
+T3  - Lecture Notes in Computer Science
+AB  - The current deep neural networks used for crowd density estimation face two main problems. First, due to different surveillance distance from the camera, densely populated regions are characterized by dramatic scale change, thus using vanilla convolution kernels for feature extraction will inevitably miss discriminative information and reduce the accuracy of crowd density estimation results. Second, popular networks for crowd density estimation still depend on complex encoders with a large number of parameters, and adopt fixed convolutional kernels to extract image features at different spatial positions, resulting in spatial-invariance and computation-heavy. To remedy the above problems, in this paper, we propose a Dynamic yet Lightweight Multi-Pyramid Network (DLMP-Net) for crowd density estimation. The proposed DLMP-Net mainly makes two contributions. First, we design a shuffle-pyramid feature extraction and fusion module (SPFFM), which employs multi-dilated convolution to extract and fuse various scale features. In addition, we add group and channel shuffle operation to reduce the model complexity and improve the efficiency of feature fusion. Second, we introduce a Dynamic Bottleneck Block (DBB), which predicts exclusive kernels pixel by pixel and channel by channel dynamically conditioned on an input, boosting the model performance while decreasing the number of parameters. Experiments are conducted on five datasets: ShanghaiTech dataset, UCF_CC_50 dataset, UCF_QRNF dataset, GCC dataset and NWPU dataset and the ablation studies are performed on ShanghaiTech dataset. The final results show that the proposed DLMP-Net can effectively overcome the problems mentioned above and provides high crowd counting accuracy with smaller model size than state-of-the-art networks.
+C1  - Cham
+C3  - Pattern Recognition and Computer Vision
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-18916-6_3
+DP  - Springer Link
+SP  - 27
+EP  - 39
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-18916-6
+ST  - DLMP-Net
+L1  - files/1367/Chen et al. - 2022 - DLMP-Net A Dynamic Yet Lightweight Multi-pyramid .pdf
+N1  - <div data-schema-version="8"><p>can download</p>
+</div>
+KW  - Feature fusion
+KW  - Crowd density estimation
+KW  - Dynamic bottleneck block
+ER  - 
+
+TY  - CONF
+TI  - Calibration-Free Multi-view Crowd Counting
+AU  - Zhang, Qi
+AU  - Chan, Antoni B.
+A2  - Avidan, Shai
+A2  - Brostow, Gabriel
+A2  - Cissé, Moustapha
+A2  - Farinella, Giovanni Maria
+A2  - Hassner, Tal
+T3  - Lecture Notes in Computer Science
+AB  - Deep learning based multi-view crowd counting (MVCC) has been proposed to handle scenes with large size, in irregular shape or with severe occlusions. The current MVCC methods require camera calibrations in both training and testing, limiting the real application scenarios of MVCC. To extend and apply MVCC to more practical situations, in this paper we propose calibration-free multi-view crowd counting (CF-MVCC), which obtains the scene-level count directly from the density map predictions for each camera view without needing the camera calibrations in the test. Specifically, the proposed CF-MVCC method first estimates the homography matrix to align each pair of camera-views, and then estimates a matching probability map for each camera-view pair. Based on the matching maps of all camera-view pairs, a weight map for each camera view is predicted, which represents how many cameras can reliably see a given pixel in the camera view. Finally, using the weight maps, the total scene-level count is obtained as a simple weighted sum of the density maps for the camera views. Experiments are conducted on several multi-view counting datasets, and promising performance is achieved compared to calibrated MVCC methods that require camera calibrations as input and use scene-level density maps as supervision.
+C1  - Cham
+C3  - Computer Vision – ECCV 2022
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-20077-9_14
+DP  - Springer Link
+SP  - 227
+EP  - 244
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-20077-9
+L1  - files/1462/Zhang and Chan - 2022 - Calibration-Free Multi-view Crowd Counting.pdf
+N1  - <div data-schema-version="8"><p>access provided by unikl</p>
+</div>
+ER  - 
+
+TY  - CONF
+TI  - FGENet: Fine-Grained Extraction Network for Congested Crowd Counting
+AU  - Ma, Hao-Yuan
+AU  - Zhang, Li
+AU  - Wei, Xiang-Yi
+A2  - Rudinac, Stevan
+A2  - Hanjalic, Alan
+A2  - Liem, Cynthia
+A2  - Worring, Marcel
+A2  - Jónsson, Björn Þór
+A2  - Liu, Bei
+A2  - Yamakata, Yoko
+T3  - Lecture Notes in Computer Science
+AB  - Crowd counting has gained significant popularity due to its practical applications. However, mainstream counting methods ignore precise individual localization and suffer from annotation noise because of counting from estimating density maps. Additionally, they also struggle with high-density images. To address these issues, we propose an end-to-end model called Fine-Grained Extraction Network (FGENet). Different from methods estimating density maps, FGENet directly learns the original coordinate points that represent the precise localization of individuals. This study designs a fusion module, named Fine-Grained Feature Pyramid (FGFP), that is used to fuse feature maps extracted by the backbone of FGENet. The fused features are then passed to both regression and classification heads, where the former provides predicted point coordinates for a given image, and the latter determines the confidence level for each predicted point being an individual. At the end, FGENet establishes correspondences between prediction points and ground truth points by employing the Hungarian algorithm. For training FGENet, we design a robust loss function, named Three-Task Combination (TTC), to mitigate the impact of annotation noise. Extensive experiments are conducted on four widely used crowd counting datasets. Experimental results demonstrate the effectiveness of FGENet. Notably, our method achieves a remarkable improvement of 3.14 points in Mean Absolute Error (MAE) on the ShanghaiTech Part A dataset, showcasing its superiority over the existing state-of-the-art methods. Even more impressively, FGENet surpasses previous benchmarks on the UCF_CC_50 dataset with an astounding enhancement of 30.16 points in MAE.
+C1  - Cham
+C3  - MultiMedia Modeling
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-3-031-53311-2_4
+DP  - Springer Link
+SP  - 43
+EP  - 56
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-53311-2
+ST  - FGENet
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+KW  - Crowd counting
+KW  - Computer vision
+KW  - Convolutional neural network
+ER  - 
+
+TY  - CONF
+TI  - Crowdsampling the Plenoptic Function
+AU  - Li, Zhengqi
+AU  - Xian, Wenqi
+AU  - Davis, Abe
+AU  - Snavely, Noah
+A2  - Vedaldi, Andrea
+A2  - Bischof, Horst
+A2  - Brox, Thomas
+A2  - Frahm, Jan-Michael
+T3  - Lecture Notes in Computer Science
+AB  - Many popular tourist landmarks are captured in a multitude of online, public photos. These photos represent a sparse and unstructured sampling of the plenoptic function for a particular scene. In this paper, we present a new approach to novel view synthesis under time-varying illumination from such data. Our approach builds on the recent multi-plane image (MPI) format for representing local light fields under fixed viewing conditions. We introduce a new DeepMPI representation, motivated by observations on the sparsity structure of the plenoptic function, that allows for real-time synthesis of photorealistic views that are continuous in both space and across changes in lighting. Our method can synthesize the same compelling parallax and view-dependent effects as previous MPI methods, while simultaneously interpolating along changes in reflectance and illumination with time. We show how to learn a model of these effects in an unsupervised way from an unstructured collection of photos without temporal registration, demonstrating significant improvements over recent work in neural rendering. More information can be found at crowdsampling.io.
+C1  - Cham
+C3  - Computer Vision – ECCV 2020
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-3-030-58452-8_11
+DP  - Springer Link
+SP  - 178
+EP  - 196
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-58452-8
+L1  - files/2094/Li et al. - 2020 - Crowdsampling the Plenoptic Function.pdf
+N1  - <div data-schema-version="8"><p>access provided by unikl</p>
+</div>
+ER  - 
+
+TY  - CONF
+TI  - A Multiview Approach to Tracking People in Crowded Scenes Using Fusion Feature Correlation
+AU  - Chen, Kai
+AU  - Huang, Yujie
+AU  - Wang, Ziyuan
+A2  - Hassan, Fazilah
+A2  - Sunar, Noorhazirah
+A2  - Mohd Basri, Mohd Ariffanan
+A2  - Mahmud, Mohd Saiful Azimi
+A2  - Ishak, Mohamad Hafis Izran
+A2  - Mohamed Ali, Mohamed Sultan
+T3  - Communications in Computer and Information Science
+AB  - Most of the current tracking methods for multi-target pedestrian tracking are unable to solve the problem where the tracking targets are blocked and reappears after disappearing in the camera perspectives, which brings great challenges to its practical application. To tackle this problem in dense crowds, we propose a multi-target pedestrian tracking method based on fusion feature correlation under multi-vision: Updating the pedestrian feature pool based on GMM to reduce the feature pollution; Then dynamically calculating the similarity threshold of target features based on K-means algorithm; Use the idea of voting to match pedestrian features and determine the addition and reappearance of pedestrians. The results on open dataset Shelf show that our method improve the accuracy and success rate of tracking under the condition of occlusion and reappearance after disappearance.
+C1  - Singapore
+C3  - Methods and Applications for Modeling and Simulation of Complex Systems
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-981-99-7240-1_16
+DP  - Springer Link
+SP  - 204
+EP  - 217
+LA  - en
+PB  - Springer Nature
+SN  - 978-981-9972-40-1
+N1  - <div data-schema-version="8"><p>have to buy</p>
+</div>
+KW  - Fusion feature
+KW  - Dynamic threshold
+KW  - GMM
+KW  - Multi-vision
+KW  - Reappearance detection
+ER  - 
+
+TY  - CONF
+TI  - The Impact of Animations in the Perception of a Simulated Crowd
+AU  - Molina, Elena
+AU  - Ríos, Alejandro
+AU  - Pelechano, Nuria
+A2  - Magnenat-Thalmann, Nadia
+A2  - Interrante, Victoria
+A2  - Thalmann, Daniel
+A2  - Papagiannakis, George
+A2  - Sheng, Bin
+A2  - Kim, Jinman
+A2  - Gavrilova, Marina
+T3  - Lecture Notes in Computer Science
+AB  - Simulating virtual crowds is an important challenge in many areas such as games and virtual reality applications. A lot of effort has been dedicated to improving pathfinding, collision avoidance, or decision making, to achieve more realistic human-like behavior. However, crowd simulation will be far from appearing realistic as long as virtual humans are limited to walking animations. Including animation variety could greatly enhance the plausibility of the populated environment. In this paper, we evaluated to what extend animation variety can affect the perceived level of realism of a crowd, regardless of the appearance of the virtual agents (bots vs. humanoids). The goal of this study is to provide recommendations for crowd animation and rendering when simulating crowds. Our results show that the perceived realism of the crowd trajectories and animations is significantly higher when using a variety of animations as opposed to simply having locomotion animations, but only if we render realistic humanoids. If we can only render agents as bots, then there is no much gain from having animation variety, in fact, it could potentially lower the perceived quality of the trajectories.
+C1  - Cham
+C3  - Advances in Computer Graphics
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-89029-2_2
+DP  - Springer Link
+SP  - 25
+EP  - 38
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-89029-2
+L1  - files/2074/Molina et al. - 2021 - The Impact of Animations in the Perception of a Si.pdf
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+KW  - Character animation
+KW  - Crowd simulation
+KW  - Perception
+ER  - 
+
+TY  - CONF
+TI  - A Factorization Machines-based Participant Recruitment Approach in Mobile Crowdsensing
+AU  - Ning, Hanyang
+AU  - Ma, Miao
+AU  - Yang, Bo
+T3  - EITCE '22
+AB  - Mobile Crowdsensing employs mobile devices to get massive data efficiently and economically, which is a people-centric sensing paradigm followed with the development of mobile communication technology. The key issue of mobile crowdsensing is to recruit suitable participants. Here we propose a new approach on participant recruitments that introduces factorization machine to cross features of participants and tasks in pairs to reduce the number of weight parameters and accelerates the process of model training. In this approach, both the quality of historical task implements and the constraints of time and location are integrated to mine the ability of each potential participant. Compared with some state-of-the-art approaches on Gowalla dataset, experimental results show that our approach is the best in term of precision, recall, hit rate, normalized discounted cumulative gain and mean reciprocal rank.
+C1  - New York, NY, USA
+C3  - Proceedings of the 2022 6th International Conference on Electronic Information Technology and Computer Engineering
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3573428.3573578
+SP  - 828
+EP  - 833
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9714-8
+UR  - https://doi.org/10.1145/3573428.3573578
+N1  - <div data-schema-version="8"><p>have to pay for full access</p>
+<p></p>
+</div>
+KW  - Recommendation system
+KW  - Factorization machines
+KW  - Mobile crowdsensing
+KW  - Participant recruitment
+ER  - 
+
+TY  - CONF
+TI  - Disagreement, Agreement, and Elaboration in Crowdsourced Deliberation: Ideation Through Elaborated Perspectives
+AU  - Aitamurto, Tanja
+AU  - Royal, Peter G
+AU  - Saldivar, Jorge
+T3  - CHI EA '23
+AB  - In this study, we examined disagreement, agreement, and elaboration (rationale sharing) and their association with idea generation in a crowdsourced deliberation that took place within a crowdsourced policymaking process led by a national government. We analyzed the comments posted to the crowdsourced deliberation process and found that the elaboration of perspectives was a key element in idea generation. Disagreement contributed to ideation most when it was elaborated—i.e., when the participants justified their stances—and when it was accompanied by elaborated agreement. The findings suggest that in the design of the technologies and processes facilitating crowdsourced policymaking and other applications for civic engagement, there should be a particular focus on encouraging elaboration because elaboration can contribute to productive ideation as well as constructive argumentation. Elaboration could be fostered by deploying features from deliberation and argumentation technologies, which are designed to encourage participants to elaborate on their stances.
+C1  - New York, NY, USA
+C3  - Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3544549.3585708
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9422-2
+UR  - https://doi.org/10.1145/3544549.3585708
+N1  - <div data-schema-version="8"><p>pay</p>
+<p></p>
+</div>
+KW  - civic engagement
+KW  - civic participation
+KW  - civic technology
+KW  - crowdsourced policymaking
+KW  - deliberation
+KW  - democratic innovations
+KW  - participatory democracy
+KW  - policy-making
+ER  - 
+
+TY  - CONF
+TI  - “I'm” Lost in Translation: Pronoun Missteps in Crowdsourced Data Sets
+AU  - Seaborn, Katie
+AU  - Kim, Yeongdae
+T3  - CHI EA '23
+AB  - As virtual assistants continue to be taken up globally, there is an ever-greater need for these speech-based systems to communicate naturally in a variety of languages. Crowdsourcing initiatives have focused on multilingual translation of big, open data sets for use in natural language processing (NLP). Yet, language translation is often not one-to-one, and biases can trickle in. In this late-breaking work, we focus on the case of pronouns translated between English and Japanese in the crowdsourced Tatoeba database. We found that masculine pronoun biases were present overall, even though plurality in language was accounted for in other ways. Importantly, we detected biases in the translation process that reflect nuanced reactions to the presence of feminine, neutral, and/or non-binary pronouns. We raise the issue of translation bias for pronouns and offer a practical solution to embed plurality in NLP data sets.
+C1  - New York, NY, USA
+C3  - Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3544549.3585667
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9422-2
+UR  - https://doi.org/10.1145/3544549.3585667
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+KW  - Natural language processing
+KW  - Data sets
+KW  - Feminist HCI
+KW  - Gender bias
+KW  - Translation
+ER  - 
+
+TY  - CONF
+TI  - Exploring the design space for Crowdsourcing Journey eXperience
+AU  - Zileli, Selin
+AU  - Gomer, Richard C
+AU  - schraefel, m.c.
+T3  - CHI EA '23
+AB  - This paper aims to establish a design space for tools to crowdsource data about Journey eXperience (JX). Understanding JX could provide a range of benefits in various domains, including transport planning, urban design, and individual route planning, and support efforts to achieve more sustainable transport systems. A key challenge in studying JX is finding effective ways to collect data. We present initial results from a diary study that explores what JX means and how JX data might be collected. We show how the experience of journeying through space differs from experiences of being in space, provide an initial description of factors that influence JX, and offer high-level insights of relevance to the design space of JX data collection.
+C1  - New York, NY, USA
+C3  - Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3544549.3585818
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9422-2
+UR  - https://doi.org/10.1145/3544549.3585818
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+KW  - user experience
+KW  - behaviour
+KW  - diary
+KW  - emotions
+KW  - journey
+KW  - senses
+KW  - sustainability
+KW  - transport
+ER  - 
+
+TY  - CONF
+TI  - Exploratory Thematic Analysis of Crowdsourced Photosensitivity Warnings
+AU  - South, Laura
+AU  - Yildirim, Caglar
+AU  - Pavel, Amy
+AU  - Borkin, Michelle A.
+T3  - CHI EA '23
+AB  - Films often include sequences of flashing lights for visual effect that may inadvertently trigger seizures when viewed by individuals with photosensitive epilepsy (PSE). Warnings about photosensitive risk in films can help people with PSE make informed decisions about their personal safety, but little is known about how to design such warnings and what information to include. To better understand the design space for photosensitive risk warnings, we conducted a qualitative analysis of 265 crowdsourced warnings about flashing lights in films. We find that the crowdsourced warnings were tightly coupled to the scenic and temporal contexts of the films being described, unlike current practices for labeling media with potentially seizure-inducing sequences using general warnings that are not specific to the media at hand. As technological capabilities for detecting seizure-inducing sequences continue to improve, understanding how to effectively communicate this information to individuals with photosensitive epilepsy is critical for ensuring accessibility.
+C1  - New York, NY, USA
+C3  - Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3544549.3585649
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9422-2
+UR  - https://doi.org/10.1145/3544549.3585649
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+KW  - accessibility
+KW  - film
+KW  - photosensitive epilepsy
+KW  - seizures
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing Data for Safer Travel Experiences for Women in India
+AU  - Huang, Xiao Yuan
+AU  - West, Emma
+AU  - Pinnelli, Sai Samba Karthikeya
+T3  - CHI EA '23
+AB  - In 2018, the Thomas Reuters perception survey ranked India as the most dangerous country for women due to the high risk of sexual, and non-sexual violence, and harassment [2]. In a study conducted by Jagori and UN Women in Delhi, it was observed that the highest number of incidents reported by women occurred on buses, other public transportation, and on the streets [3]. With the rise of women traveling and entering the workforce, it's critical to observe how Information and Communications for Technology and Development (ICTD) may be designed to increase female safety while traveling. Through a diary study, competitor analysis, and user interview methodology, our team uncovered unique challenges in public transportation, social and gender role expectations, and familial interventions that shape the safety of women in Southern India. Informed by our research, we created Navi.io, a mobile safety application that enables users to feel safer and make informed decisions when traveling by utilizing crowdsourced data and connecting with contacts in transit.
+C1  - New York, NY, USA
+C3  - Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3544549.3583836
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9422-2
+UR  - https://doi.org/10.1145/3544549.3583836
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+KW  - Navigation
+KW  - India
+KW  - Location Sharing
+KW  - Mobile Application
+KW  - Public Transportation
+KW  - Women Safety
+ER  - 
+
+TY  - CONF
+TI  - Crowd Counting Using Scale Enhanced Network with Dual Attention Booster
+AU  - Zeng, Xin
+AU  - Hu, Shizhe
+AU  - Guo, Qiang
+AU  - Wu, Yunpeng
+AU  - Ye, Yangdong
+T3  - ACAI '22
+AB  - Crowd counting has been a fundamental yet challenging problem in pattern recognition. Most recent deep models for crowd counting rely on Convolutional Neural Networks (CNNs). Although CNN visual features comprise the spatial and channel features, existing deep models on crowd counting have limited descriptive ability as they only focus on the spatial or channel information. In this paper, we propose Scale Enhanced Network with Dual Attention Booster named as SEN-DAB, a novel method to jointly learn the representations of spatial and channel information for crowd counting. Moreover, to further leverage the multi-scale information, a pyramid residual scale enhanced block is presented to process the multi-scale features. As a result, the learned spatial, channel and multi-scale features can be robust to appearance changes of the crowd. Our model is tested on three benchmarks and the experimental results confirm that the promising performance of SEN-DAB when compared with various networks.
+C1  - New York, NY, USA
+C3  - Proceedings of the 2022 5th International Conference on Algorithms, Computing and Artificial Intelligence
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3579654.3579655
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9833-6
+UR  - https://doi.org/10.1145/3579654.3579655
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+KW  - attention mechanism
+KW  - crowd counting
+KW  - multi-scale features
+KW  - density map estimation
+ER  - 
+
+TY  - CONF
+TI  - An Improved Dense Crowd Detection Algorithm Based on YOLOv5
+AU  - Li, Yu
+AU  - Li, Tiejun
+AU  - Huang, Huixiang
+T3  - EITCE '22
+AB  - Due to the particularity with a large number of labels in dense crowd dataset, the dense crowd detection difficulty is mainly reflected in the missed detection and false detection of small objects. In order to better detect small objects, this paper proposes a more efficient feature fusion network based on YOLOv5. The experiment uses the crowd human public dataset, which improves the average accuracy of detection while ensuring the inference speed. Experimental results show that mAP@0.5 of the improved YOLOv5 network reaches 92.07%, which is 6.21% higher than the original YOLOv5s. The detection frame rate is 49FPS, which has good real-time detection ability. Therefore, the improved algorithm proposed in this work can be a better alternative in dense crowd detection task.
+C1  - New York, NY, USA
+C3  - Proceedings of the 2022 6th International Conference on Electronic Information Technology and Computer Engineering
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3573428.3573731
+SP  - 1713
+EP  - 1718
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9714-8
+UR  - https://doi.org/10.1145/3573428.3573731
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+ER  - 
+
+TY  - CONF
+TI  - High-density Image Object Counting Network Based on Spatial Context and Channel Attention: Take crowds and vehicles in a statistically dense scene as an example
+AU  - Wang, Yu
+AU  - Liu, Mingsheng
+AU  - Yi, Hu
+AU  - Xie, Yunchi
+AU  - Tan, Zhengyu
+AU  - Ji, Cunyu
+T3  - EITCE '22
+AB  - Accurate object counting is a challenging task in image analysis, low-density image object counting can usually be achieved by object detection algorithms, and high-density object counting still has limited counting accuracy. We propose a high-density image object counting network based on spatial context and channel attention, abbreviated as HIOC-Net, which divides low-level features into multiple blocks of different scales through a spatial context-aware module to extract rich contextual features, and then uses the channel attention-aware module to process the interdependence of feature information in the channel dimension, so that the model can focus on useful features, suppressing the irrelevant background. This paper conducts extensive experiments on large-scale crowd and vehicle counting datasets, including ShanghaiTech, UCF_CC_50, WorldExpo'10, TRANCOS, and HBR_YD datasets. The results show that our method not only surpasses many state-of-the-art methods in counting accuracy but also achieves competitive localization accuracy, resulting in high-quality object density maps.
+C1  - New York, NY, USA
+C3  - Proceedings of the 2022 6th International Conference on Electronic Information Technology and Computer Engineering
+DA  - 2023///
+PY  - 2023
+DO  - 10.1145/3573428.3573708
+SP  - 1592
+EP  - 1596
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9714-8
+UR  - https://doi.org/10.1145/3573428.3573708
+N1  - <div data-schema-version="8"><p>pay</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Dense Crowds Detection and Surveillance with Drones using Density Maps
+AU  - Javier Gonzalez-Trejo
+AU  - Diego Alberto Mercado-Ravell
+T2  - arXiv: Computer Vision and Pattern Recognition
+AB  - Detecting and Counting people in a human crowd from a moving drone present challenging problems that arisefrom the constant changing in the image perspective andcamera angle. In this paper, we test two different state-of-the-art approaches, density map generation with VGG19 trainedwith the Bayes loss function and detect-then-count with FasterRCNN with ResNet50-FPN as backbone, in order to comparetheir precision for counting and detecting people in differentreal scenarios taken from a drone flight. We show empiricallythat both proposed methodologies perform especially well fordetecting and counting people in sparse crowds when thedrone is near the ground. Nevertheless, VGG19 provides betterprecision on both tasks while also being lighter than FasterRCNN. Furthermore, VGG19 outperforms Faster RCNN whendealing with dense crowds, proving to be more robust toscale variations and strong occlusions, being more suitable forsurveillance applications using drones
+DA  - 2020///
+PY  - 2020
+DO  - 10.1109/ICUAS48674.2020.9213886
+J2  - arXiv: Computer Vision and Pattern Recognition
+UR  - https://arxiv.org/pdf/2003.08766.pdf
+N1  - <div data-schema-version="8"><p>open</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Tracking Pedestrian Heads in Dense Crowd
+AU  - Ramana Sundararaman
+AU  - Cedric De Almeida Braga
+AU  - Eric Marchand
+AU  - Julien Pettré
+AB  - Tracking humans in crowded video sequences is an important constituent of visual scene understanding. Increasing crowd density challenges visibility of humans, limiting the scalability of existing pedestrian trackers to higher crowd densities. For that reason, we propose to revitalize head tracking with Crowd of Heads Dataset (CroHD), consisting of 9 sequences of 11,463 frames with over 2,276,838 heads and 5,230 tracks annotated in diverse scenes. For evaluation, we proposed a new metric, IDEucl, to measure an algorithm’s efficacy in preserving a unique identity for the longest stretch in image coordinate space, thus building a correspondence between pedestrian crowd motion and the performance of a tracking algorithm. Moreover, we also propose a new head detector, HeadHunter, which is designed for small head detection in crowded scenes. We extend HeadHunter with a Particle Filter and a color histogram based re-identification module for head tracking. To establish this as a strong baseline, we compare our tracker with existing state-of-the-art pedestrian trackers on CroHD and demonstrate superiority, especially in identity preserving tracking metrics. With a light-weight head detector and a tracker which is efficient at identity preservation, we believe our contributions will serve useful in advancement of pedestrian tracking in dense crowds. We make our dataset, code and models publicly available at https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/CVPR46437.2021.00386
+SP  - 3865
+EP  - 3875
+UR  - https://openaccess.thecvf.com/content/CVPR2021/papers/Sundararaman_Tracking_Pedestrian_Heads_in_Dense_Crowd_CVPR_2021_paper.pdf
+N1  - <div data-schema-version="8"><p>open</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Locate, Size, and Count: Accurately Resolving People in Dense Crowds via Detection
+AU  - Deepak Babu Sam
+AU  - Skand Vishwanath Peri
+AU  - Mukuntha Narayanan Sundararaman
+AU  - Amogh Kamath
+AU  - R. Venkatesh Babu
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+AB  - We introduce a detection framework for dense crowd counting and eliminate the need for the prevalent density regression paradigm. Typical counting models predict crowd density for an image as opposed to detecting every person. These regression methods, in general, fail to localize persons accurate enough for most applications other than counting. Hence, we adopt an architecture that locate s every person in the crowd, size s the spotted heads with bounding box and then count s them. Compared to normal object or face detectors, there exist certain unique challenges in designing such a detection system. Some of them are direct consequences of the huge diversity in dense crowds along with the need to predict boxes contiguously. We solve these issues and develop our LSC-CNN model, which can reliably detect heads of people across sparse to dense crowds. LSC-CNN employs a multi-column architecture with top-down feature modulation to better resolve persons and produce refined predictions at multiple resolutions. Interestingly, the proposed training regime requires only point head annotation, but can estimate approximate size information of heads. We show that LSC-CNN not only has superior localization than existing density regressors, but outperforms in counting as well. The code for our approach is available at https://github.com/val-iisc/lsc-cnn .
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/TPAMI.2020.2974830
+VL  - 43
+IS  - 8
+SP  - 2739
+EP  - 2751
+J2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://arxiv.org/pdf/1906.07538.pdf
+N1  - <div data-schema-version="8"><p>open</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - A Multi-scale Fusion Method for Dense Crowd Counting
+AU  - Liwen Shen
+AU  - Zhao Qiu
+AU  - Ping Huang
+AU  - Yu Jin
+AU  - Chao Li
+AU  - Jinye Cai
+AB  - We propose a dense crowd detection network, called MSFNet, which can deal with highly dense crowd scenes, make accurate counting estimation and generate high-quality density maps by deep learning. The network is mainly composed of two main parts: the front-end network uses VGG-16 as the 2D feature extraction module, and the back-end network uses convolution networks with different sizes of convolution kernels instead of linking operations. The network is composed of convolution layers, which is an easy training model. We verify our network on two representative data sets (ShanghaiTech Data Set, UCF CC 50 Data Set), and the performance has been improved.In the first data set of ShanghaiTech, the root mean square error (MSE) decreased by 10%, and the mean absolute error (MAE) and root mean square error (MSE) of the second data set both decreased by about 6%.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-78615-1_27
+SP  - 305
+EP  - 314
+N1  - <div data-schema-version="8"><p>open</p>
+<p></p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - On Formal Models of Interactions Between Detectors and Trackers in Crowd Analysis Tasks
+AU  - Andrzej Sluzek
+AU  - M. Sami Zitouni
+AB  - In crowd analysis tasks (crowds of humans, cattle, birds, drones, etc.) the low-level vision tools are usually the same, i.e. detection and tracking of either individuals or groups. The required results, however, are more complicated (e.g. patterns of group splitting/merging, changes in group sizes and membership, group formation and disappearance, etc.). To complete such tasks, raw results of detection/tracking are converted into data associations representing crowd structure/evolution. Normally, those associations are deterministic and based on target labeling. However, performances of detectors/trackers are non-perfect, i.e. their outcomes are effectively non-deterministic. We discuss matrix-based mathematical models of interactions between detectors and trackers to represent such data associations non-deterministically. In particular, a methodology for reconstructing weak or missing associations by alternative sequences of matrix operations is proposed. This can provide more reliable label correspondences between selected moments/points of monitored scenes. Apart from mathematical details, the paper presents examples illustrating feasibility of the proposed approach.
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-22025-8_2
+SP  - 17
+EP  - 29
+N1  - <div data-schema-version="8"><p>Access provided by UniKL</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Robust Identification of Dense or Sparse Crowd Based on Classifier Fusion
+AU  - Saikat Dutta
+AU  - Soumya Kanti Naskar
+AU  - Sanjoy Kumar Saha
+AU  - Bhabatosh Chanda
+AB  - For a video surveillance system, crowd behavior analysis and crowd managing are important tasks. Along with the event in which crowd participates, its volume and density are also important in managing the crowd. Hence, characterizing the crowd as dense or sparse is an essential component of a crowd handling system. In this context, most of the existing methods try to estimate the headcount. Unlike those, the proposed method exploits the domain-knowledge based low-level features to classify the crowd image as dense or sparse. We present three simple systems working with three different feature sets. These are all free from the burden of background estimation. Experiments are carried on a dataset formed by taking the images from UCF-CC50 and SanghaiTech. Performance of all three feature sets are satisfactory, and Corner-Point based methodology provides the best result.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1007/978-3-030-34869-4_15
+SP  - 131
+EP  - 139
+N1  - <div data-schema-version="8"><p>open</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - CrowdTracing: Overcrowding Clustering and Detection System for Social Distancing
+AU  - Eiman Kanjo
+AU  - Dario Ortega Anderez
+AU  - Amna Anwar
+AU  - Ahmad Al Shami
+AU  - James Williams
+AB  - Maintaining social distancing in public spaces plays a pivotal role in decreasing COVID-19 contagion and viral spread. COVID-19 has required many countries around the world to close work places, schools and public spaces. This has prompted policy makers, venue managers and local authorities to investigate practical mitigation strategies using technology to exit the lockdown safely and enable the reopening of cities and public spaces. This paper introduces CrowdTracing, a dynamic overcrowding detection system that encourages social-distancing and triggers an alert to venue, city council or facility managers in a dynamic and privacy-preserving manner. CrowdTracing utilises ubiquitous WiFi probing and density-based clustering techniques which can be performed in real-time to identify commonly crowded areas and assist in the estimation of excess gatherings. The proposed system can also be used to enable discovery of where social distancing rules are not being followed, enabling a rapid response, controlling or slowing down the spread of the virus. A classification recall of 0.85 on an experiment with 1000 simulated scenarios were achieved. This indicates the CrowdTracing system proposed was able to identify 85 out 100 scenarios in which social distancing rules were not being followed.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/ISC253183.2021.9562914
+SP  - 1
+EP  - 7
+N1  - <div data-schema-version="8"><p>open, source -IEEExplore</p>
+</div>
+ER  - 
+
