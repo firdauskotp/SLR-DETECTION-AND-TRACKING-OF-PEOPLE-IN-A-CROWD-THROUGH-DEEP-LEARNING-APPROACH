@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" modified="2024-02-07T15:31:00.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rNRSaJxtD2uK0wTQEJ6Y" version="23.1.1" type="device">
+  <diagram name="Page-1" id="b3bMiMVoNhue8G2uNwi4">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-2" target="TOLxcGHPb0z1MMF6y-VI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-2" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-3" target="TOLxcGHPb0z1MMF6y-VI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-3" value="End of Conducting SLR" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="810" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-4" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="970" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-5" target="TOLxcGHPb0z1MMF6y-VI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-5" value="Research Paper&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-6" target="TOLxcGHPb0z1MMF6y-VI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-6" value="Formulating Research Question" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-7" value="Search Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-8" target="TOLxcGHPb0z1MMF6y-VI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-8" value="Set Inclusion and Exclusion criteria" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-9" target="TOLxcGHPb0z1MMF6y-VI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-9" value="Research Paper&lt;br&gt;Retrieved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-10" target="TOLxcGHPb0z1MMF6y-VI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-10" target="TOLxcGHPb0z1MMF6y-VI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-10" value="Criteria Passed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="450" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-11" target="TOLxcGHPb0z1MMF6y-VI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-11" value="Compose Report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-12" target="TOLxcGHPb0z1MMF6y-VI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-12" value="Quality Assessment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-13" target="TOLxcGHPb0z1MMF6y-VI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-13" value="Exclude Paper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="597.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-14" target="TOLxcGHPb0z1MMF6y-VI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-14" target="TOLxcGHPb0z1MMF6y-VI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-14" value="Quality Score&lt;br&gt;Passed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="100" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-15" target="TOLxcGHPb0z1MMF6y-VI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-15" value="Data Collection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-16" value="Data Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-17" value="&lt;font color=&quot;#ffffff&quot;&gt;PHASE 1:&lt;br&gt;PLANNING&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="39" y="90" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-18" value="&lt;font color=&quot;#ffffff&quot;&gt;PHASE 2:&lt;br&gt;EXAMINATION&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="39" y="220" width="120" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-19" value="PHASE 3:&lt;br&gt;REPORTING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="39" y="880" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-7" target="TOLxcGHPb0z1MMF6y-VI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-33" value="Next Research&lt;br&gt;Paper Available?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="686.25" width="120" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-16" target="TOLxcGHPb0z1MMF6y-VI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="749.5" as="sourcePoint" />
+            <mxPoint x="780" y="749.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="430" as="sourcePoint" />
+            <mxPoint x="780" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="750" as="sourcePoint" />
+            <mxPoint x="780" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TOLxcGHPb0z1MMF6y-VI-33" target="TOLxcGHPb0z1MMF6y-VI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-43" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-44" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-45" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-46" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-47" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="597.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TOLxcGHPb0z1MMF6y-VI-48" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="813.75" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
