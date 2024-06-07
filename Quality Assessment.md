@@ -1,7 +1,10 @@
-RQ1 - How to improve upon the current method used to detect people in a dense crowd setting
 
-RQ2 - What architecture will be used for tracking people
+QA 1: The research uses topological localisation as its deep learning approach 
 
-RQ3 - Can it be implemented in public places
+QA 2: The crowd involved in the study is a dense crowd 
 
-Each RQ represents 1 score
+QA 3: The research uses auto annotation for tracking the individuals in a dense crowd 
+
+QA 4: One trained dataset is used on different test datasets 
+
+QA 5: Re-identification of the same person is implemented in the tracking 
