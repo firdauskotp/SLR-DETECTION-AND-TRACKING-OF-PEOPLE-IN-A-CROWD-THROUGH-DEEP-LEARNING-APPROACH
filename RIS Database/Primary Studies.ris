@@ -1,0 +1,294 @@
+TY  - CONF
+TI  - Learning how to analyse crowd behaviour using synthetic data
+AU  - Khadka, A. R.
+AU  - Oghaz, M. M.
+AU  - Matta, W.
+AU  - Cosentino, M.
+AU  - Remagnino, P.
+AU  - Argyriou, V.
+T2  - CASA '19: Computer Animation and Social Agents
+C1  - Paris France
+C3  - Proceedings of the 32nd International Conference on Computer Animation and Social Agents
+DA  - 2019/07//
+PY  - 2019
+DO  - 10.1145/3328756.3328773
+DP  - DOI.org (Crossref)
+SP  - 11
+EP  - 14
+LA  - en
+PB  - ACM
+SN  - 978-1-4503-7159-9
+UR  - https://dl.acm.org/doi/10.1145/3328756.3328773
+Y2  - 2024/06/07/08:35:28
+ER  - 
+
+TY  - CONF
+TI  - Tracking Hundreds of People in Densely Crowded Scenes With Particle Filtering Supervising Deep Convolutional Neural Networks
+AU  - Franchi, Gianni
+AU  - Aldea, Emanuel
+AU  - Dubuisson, Severine
+AU  - Bloch, Isabelle
+T2  - 2020 IEEE International Conference on Image Processing (ICIP)
+C1  - Abu Dhabi, United Arab Emirates
+C3  - 2020 IEEE International Conference on Image Processing (ICIP)
+DA  - 2020/10//
+PY  - 2020
+DO  - 10.1109/ICIP40778.2020.9190953
+DP  - DOI.org (Crossref)
+SP  - 2071
+EP  - 2075
+PB  - IEEE
+SN  - 978-1-72816-395-6
+UR  - https://ieeexplore.ieee.org/document/9190953/
+Y2  - 2024/06/07/08:35:54
+ER  - 
+
+TY  - CONF
+TI  - Crowd Abnormal Behavior Detection Combining Movement and Emotion Descriptors
+AU  - Li, Xiao
+AU  - Yang, Yu
+AU  - Xu, Yiming
+AU  - Wang, Chao
+AU  - Li, Linyang
+T2  - ICNSER2020: The 2nd International Conference On Industrial Control Network And System Engineering Research
+C1  - Kuala Lumpur Malaysia
+C3  - Proceedings of the 2nd International Conference on Industrial Control Network And System Engineering Research
+DA  - 2020/06/19/
+PY  - 2020
+DO  - 10.1145/3411016.3411166
+DP  - DOI.org (Crossref)
+SP  - 106
+EP  - 110
+LA  - en
+PB  - ACM
+SN  - 978-1-4503-7549-8
+UR  - https://dl.acm.org/doi/10.1145/3411016.3411166
+Y2  - 2024/06/07/08:36:20
+ER  - 
+
+TY  - JOUR
+TI  - Fast intensive crowd counting model of Internet of Things based on multi‐scale attention mechanism
+AU  - Liu, Dong
+AU  - Wang, Zhiyong
+AU  - Meng, Xiangjia
+T2  - IET Image Processing
+AB  - Abstract
+            Object detection based on deep learning plays an important role in the application of the Internet of Things (IoT). Traditional methods consume a lot of computing resources and cannot be well deployed in the IoT environment. A lightweight object detection method based on attention mechanism is proposed and applied to crowd counting. In view of the low accuracy and poor real‐time performance of multi‐scale crowd detection, we design a crowd counting model based on YOLO v5, and apply it to the IoT environment. It is proposed to insert the transformer into the YOLO v5 backbone network. Based on the multi‐head attention mechanism in the transformer encoder, the global dependency is modelled to make full use of the context information. The CNN is used to realize the fusion of multi‐scale feature maps, and the feature enhancement modules concerned by the attention network are further counted. Experiments show that it can not only detect multi‐scale targets, but also achieve real‐time performance in video surveillance scenes.
+DA  - 2022/11/23/
+PY  - 2022
+DO  - 10.1049/ipr2.12686
+DP  - DOI.org (Crossref)
+SP  - ipr2.12686
+J2  - IET Image Processing
+LA  - en
+SN  - 1751-9659, 1751-9667
+UR  - https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.12686
+Y2  - 2024/06/07/08:38:09
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ipr2.12686
+ER  - 
+
+TY  - CONF
+TI  - UUCT - HyMP: Towards Tracking Dispersed Crowd Groups from UAVs
+AU  - Deb, Tonmoay
+AU  - Rahmun, Mahieyin
+AU  - Bijoy, Shahriar Ali
+AU  - Raha, Mayamin Hamid
+AU  - Khan, Mohammad A
+T2  - 2021 International Joint Conference on Neural Networks (IJCNN)
+C1  - Shenzhen, China
+C3  - 2021 International Joint Conference on Neural Networks (IJCNN)
+DA  - 2021/07/18/
+PY  - 2021
+DO  - 10.1109/IJCNN52387.2021.9533600
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 8
+PB  - IEEE
+SN  - 978-1-66543-900-8
+ST  - UUCT - HyMP
+UR  - https://ieeexplore.ieee.org/document/9533600/
+Y2  - 2024/06/07/08:44:53
+ER  - 
+
+TY  - JOUR
+TI  - Occlusion Handling and Multi-Scale Pedestrian Detection Based on Deep Learning: A Review
+AU  - Li, Fang
+AU  - Li, Xueyuan
+AU  - Liu, Qi
+AU  - Li, Zirui
+T2  - IEEE Access
+DA  - 2022///
+PY  - 2022
+DO  - 10.1109/ACCESS.2022.3150988
+DP  - DOI.org (Crossref)
+VL  - 10
+SP  - 19937
+EP  - 19957
+J2  - IEEE Access
+SN  - 2169-3536
+ST  - Occlusion Handling and Multi-Scale Pedestrian Detection Based on Deep Learning
+UR  - https://ieeexplore.ieee.org/document/9718221/
+Y2  - 2024/06/07/08:45:12
+L1  - https://ieeexplore.ieee.org/ielx7/6287639/9668973/09718221.pdf
+ER  - 
+
+TY  - CONF
+TI  - An Aerial Crowd-Flow Analyzing System for Drone Under YOLOv5 and StrongSort
+AU  - Yeh, Kuan-Hao
+AU  - Hsu, I-Chung
+AU  - Chou, Ya-Zhen
+AU  - Chen, Guan-Yu
+AU  - Tsai, Yu-Shiuan
+T2  - 2022 International Automatic Control Conference (CACS)
+C1  - Kaohsiung, Taiwan
+C3  - 2022 International Automatic Control Conference (CACS)
+DA  - 2022/11/03/
+PY  - 2022
+DO  - 10.1109/CACS55319.2022.9969785
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 6
+PB  - IEEE
+SN  - 978-1-66549-646-9
+UR  - https://ieeexplore.ieee.org/document/9969785/
+Y2  - 2024/06/07/08:51:07
+ER  - 
+
+TY  - JOUR
+TI  - Fusion of CCTV Video and Spatial Information for Automated Crowd Congestion Monitoring in Public Urban Spaces
+AU  - Wong, Vivian
+AU  - Law, Kincho
+T2  - Algorithms
+AB  - Crowd congestion is one of the main causes of modern public safety issues such as stampedes. Conventional crowd congestion monitoring using closed-circuit television (CCTV) video surveillance relies on manual observation, which is tedious and often error-prone in public urban spaces where crowds are dense, and occlusions are prominent. With the aim of managing crowded spaces safely, this study proposes a framework that combines spatial and temporal information to automatically map the trajectories of individual occupants, as well as to assist in real-time congestion monitoring and prediction. Through exploiting both features from CCTV footage and spatial information of the public space, the framework fuses raw CCTV video and floor plan information to create visual aids for crowd monitoring, as well as a sequence of crowd mobility graphs (CMGraphs) to store spatiotemporal features. This framework uses deep learning-based computer vision models, geometric transformations, and Kalman filter-based tracking algorithms to automate the retrieval of crowd congestion data, specifically the spatiotemporal distribution of individuals and the overall crowd flow. The resulting collective crowd movement data is then stored in the CMGraphs, which are designed to facilitate congestion forecasting at key exit/entry regions. We demonstrate our framework on two video data, one public from a train station dataset and the other recorded at a stadium following a crowded football game. Using both qualitative and quantitative insights from the experiments, we demonstrate that the suggested framework can be useful to help assist urban planners and infrastructure operators with the management of congestion hazards.
+DA  - 2023/03/10/
+PY  - 2023
+DO  - 10.3390/a16030154
+DP  - DOI.org (Crossref)
+VL  - 16
+IS  - 3
+SP  - 154
+J2  - Algorithms
+LA  - en
+SN  - 1999-4893
+UR  - https://www.mdpi.com/1999-4893/16/3/154
+Y2  - 2024/06/07/08:51:27
+L1  - https://www.mdpi.com/1999-4893/16/3/154/pdf?version=1678434366
+ER  - 
+
+TY  - CONF
+TI  - Enhancing Real-Time Human Tracking using YOLONAS-DeepSort Fusion Models
+AU  - Athilakshmi, R.
+AU  - Chandan Sainagakrishna, Pulavarthi Sri
+AU  - Chaitanya Chowdary Kota, S. Sri
+AU  - Kiran Teja, M. Chandra
+AU  - Venkatesh, Tummala
+AU  - Prasad, V. Jothi
+T2  - 2023 7th International Conference on Electronics, Communication and Aerospace Technology (ICECA)
+C1  - Coimbatore, India
+C3  - 2023 7th International Conference on Electronics, Communication and Aerospace Technology (ICECA)
+DA  - 2023/11/22/
+PY  - 2023
+DO  - 10.1109/ICECA58529.2023.10394864
+DP  - DOI.org (Crossref)
+SP  - 1118
+EP  - 1125
+PB  - IEEE
+SN  - 9798350340600
+UR  - https://ieeexplore.ieee.org/document/10394864/
+Y2  - 2024/06/07/08:51:49
+ER  - 
+
+TY  - GEN
+TI  - Less is More: Learning from Synthetic Data with Fine-grained Attributes for Person Re-Identification
+AU  - Xiang, Suncheng
+AU  - You, Guanjie
+AU  - Guan, Mengyuan
+AU  - Chen, Hao
+AU  - Yan, Binjie
+AU  - Liu, Ting
+AU  - Fu, Yuzhuo
+AB  - Person re-identification (re-ID) plays an important role in applications such as public security and video surveillance. Recently, learning from synthetic data, which benefits from the popularity of synthetic data engine, has attracted great attention from the public eyes. However, existing datasets are limited in quantity, diversity and realisticity, and cannot be efficiently used for re-ID problem. To address this challenge, we manually construct a large-scale person dataset named FineGPR with fine-grained attribute annotations. Moreover, aiming to fully exploit the potential of FineGPR and promote the efficient training from millions of synthetic data, we propose an attribute analysis pipeline called AOST, which dynamically learns attribute distribution in real domain, then eliminates the gap between synthetic and real-world data and thus is freely deployed to new scenarios. Experiments conducted on benchmarks demonstrate that FineGPR with AOST outperforms (or is on par with) existing real and synthetic datasets, which suggests its feasibility for re-ID task and proves the proverbial less-is-more principle. Our synthetic FineGPR dataset is publicly available at https://github.com/JeremyXSC/FineGPR.
+DA  - 2021///
+PY  - 2021
+DO  - 10.48550/ARXIV.2109.10498
+DP  - DOI.org (Datacite)
+PB  - arXiv
+ST  - Less is More
+UR  - https://arxiv.org/abs/2109.10498
+Y2  - 2024/06/07/08:52:12
+N1  - <h2>Other</h2>
+21 pages with supplementary material
+KW  - Computer Vision and Pattern Recognition (cs.CV)
+KW  - FOS: Computer and information sciences
+ER  - 
+
+TY  - JOUR
+TI  - Multi-camera multi-object tracking: A review of current trends and future advances
+AU  - Amosa, Temitope Ibrahim
+AU  - Sebastian, Patrick
+AU  - Izhar, Lila Iznita
+AU  - Ibrahim, Oladimeji
+AU  - Ayinla, Lukman Shehu
+AU  - Bahashwan, Abdulrahman Abdullah
+AU  - Bala, Abubakar
+AU  - Samaila, Yau Alhaji
+T2  - Neurocomputing
+DA  - 2023/10//
+PY  - 2023
+DO  - 10.1016/j.neucom.2023.126558
+DP  - DOI.org (Crossref)
+VL  - 552
+SP  - 126558
+J2  - Neurocomputing
+LA  - en
+SN  - 09252312
+ST  - Multi-camera multi-object tracking
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0925231223006811
+Y2  - 2024/06/07/08:52:26
+ER  - 
+
+TY  - GEN
+TI  - Handling Heavy Occlusion in Dense Crowd Tracking by Focusing on the Heads
+AU  - Zhang, Yu
+AU  - Chen, Huaming
+AU  - Bao, Wei
+AU  - Lai, Zhongzheng
+AU  - Zhang, Zao
+AU  - Yuan, Dong
+AB  - With the rapid development of deep learning, object detection and tracking play a vital role in today's society. Being able to identify and track all the pedestrians in the dense crowd scene with computer vision approaches is a typical challenge in this field, also known as the Multiple Object Tracking (MOT) challenge. Modern trackers are required to operate on more and more complicated scenes. According to the MOT20 challenge result, the pedestrian is 4 times denser than the MOT17 challenge. Hence, improving the ability to detect and track in extremely crowded scenes is the aim of this work. In light of the occlusion issue with the human body, the heads are usually easier to identify. In this work, we have designed a joint head and body detector in an anchor-free style to boost the detection recall and precision performance of pedestrians in both small and medium sizes. Innovatively, our model does not require information on the statistical head-body ratio for common pedestrians detection for training. Instead, the proposed model learns the ratio dynamically. To verify the effectiveness of the proposed model, we evaluate the model with extensive experiments on different datasets, including MOT20, Crowdhuman, and HT21 datasets. As a result, our proposed method significantly improves both the recall and precision rate on small &amp; medium sized pedestrians and achieves state-of-the-art results in these challenging datasets.
+DA  - 2023///
+PY  - 2023
+DO  - 10.48550/ARXIV.2304.07705
+DP  - DOI.org (Datacite)
+PB  - arXiv
+UR  - https://arxiv.org/abs/2304.07705
+Y2  - 2024/06/07/08:52:41
+N1  - <h2>Other</h2>
+Accepted at AJCAI 2023
+KW  - Computer Vision and Pattern Recognition (cs.CV)
+KW  - FOS: Computer and information sciences
+ER  - 
+
+TY  - JOUR
+TI  - Topology and channel affinity reinforced global attention for person re‐identification
+AU  - Wang, Xile
+AU  - Gao, Chengcheng
+AU  - Xin, Ming
+AU  - Zhang, Sihan
+AU  - Zhang, Miaohui
+T2  - International Journal of Intelligent Systems
+DA  - 2021/09//
+PY  - 2021
+DO  - 10.1002/int.22506
+DP  - DOI.org (Crossref)
+VL  - 36
+IS  - 9
+SP  - 5136
+EP  - 5160
+J2  - Int J of Intelligent Sys
+LA  - en
+SN  - 0884-8173, 1098-111X
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/int.22506
+Y2  - 2024/06/07/08:52:55
+ER  - 
+
